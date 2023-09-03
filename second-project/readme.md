@@ -1,0 +1,1 @@
+# simple porject to practise on css and javascript 

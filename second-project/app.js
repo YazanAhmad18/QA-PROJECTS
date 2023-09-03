@@ -1,0 +1,1 @@
+alert("this website is very simple it made just to makre sure that css and js page are linked with index.html")
