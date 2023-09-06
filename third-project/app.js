@@ -11,9 +11,10 @@ function markCalculate(params) {
         else if(mark>=50){
           console.log("sorry you pass" + " "+name + " "+"your score is"+ " " +mark)
         }
+        else {
+          console.log("there is no result to show ")
+        }
     }
   }  
-
-
 
 markCalculate();
