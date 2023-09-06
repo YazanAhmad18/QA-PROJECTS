@@ -8,7 +8,7 @@ function markCalculate(params) {
         if(mark<50){
           console.log("sorry you fail"+ " " + name + " " + "your score is"+ " "+mark)
         }
-        else if(mark>50){
+        else if(mark>=50){
           console.log("sorry you pass" + " "+name + " "+"your score is"+ " " +mark)
         }
     }
