@@ -6,10 +6,10 @@ function markCalculate(params) {
         let name=studentsname[i]
         let mark= studentsmarks[i]
         if(mark<50){
-          console.log("sorry you fail" + name + "your score is"+ mark)
+          console.log("sorry you fail"+ " " + name + " " + "your score is"+ " "+mark)
         }
         else if(mark>50){
-          console.log("sorry you pass" + name + "your score is"+ mark)
+          console.log("sorry you pass" + " "+name + " "+"your score is"+ " " +mark)
         }
     }
   }  
