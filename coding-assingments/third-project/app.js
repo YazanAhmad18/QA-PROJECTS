@@ -3,13 +3,13 @@ let studentsmarks=[40,70,60,30];
 function markCalculate(params) {
 
   for(let i =0;i<studentsname.length;i++){
-        let name=studentsname[i]
-        let mark= studentsmarks[i]
-        if(mark<50){
-          console.log("sorry you fail"+ " " + name + " " + "your score is"+ " "+mark)
+        // let name=studentsname[i]
+        // let mark= studentsmarks[i]
+        if(studentsmarks[i]<50){
+          console.log("sorry you fail"+ " " + studentsname[i] + " " + "your score is"+ " "+studentsmarks[i])
         }
-        else if(mark>=50){
-          console.log("sorry you pass" + " "+name + " "+"your score is"+ " " +mark)
+        else if(studentsmarks[i]>=50){
+          console.log("conrag you pass" + " "+studentsname[i] + " "+"your score is"+ " " +studentsmarks[i])
         }
         else {
           console.log("there is no result to show ")
